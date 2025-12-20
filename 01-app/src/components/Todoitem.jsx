@@ -1,9 +1,9 @@
 import React from 'react';
-function TodoItem() {
+function TodoItem(props) {
   return (
     <li className="todo-item">
-        <span> <input type="checkbox" />
-      <span className='todo-item-margin'>Eat</span></span>
+        <span> {props.completed?<></>:<input type="checkbox" />}
+      <span className='todo-item-margin'>{props.text}</span></span>
      
       <p>...</p>
     </li>

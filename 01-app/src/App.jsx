@@ -7,15 +7,14 @@ import './style.css'
 function App() {
   return (
     <div className="todo-container">
-      <Header />
-      <Todoitem/>
-      <Todoitem/>
-      <Todoitem/>
-      <Todoitem/>
-      <Todoitem/>
+      <Header title="Kartikey TODO" />
+      <Todoitem text="Eat"/>
+      <Todoitem text="Sleep"/>
+      <Todoitem text="playing"/>
+      <Todoitem completed={true} text="dance"/>
+      <Todoitem text="gaming"/>
       <Button />
     </div>
   )
 }
-
-export default App
+export default App;

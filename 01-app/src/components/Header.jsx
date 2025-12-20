@@ -1,7 +1,7 @@
-function Header() {
+function Header(props) {
   return (
     <>
-      <h1>TODO List</h1>
+      <h1>{props.title}</h1>
     </>
   );
 }
