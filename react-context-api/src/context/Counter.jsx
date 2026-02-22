@@ -2,12 +2,12 @@ import { createContext, useState } from "react";
 
 export const CounterContext = createContext(null);
 
-export const CounterProvider = (props) => {
+export const CounterProvider = ({ children }) => {
   const [count, setCount] = useState(14);
 
   return (
     <CounterContext.Provider value={{ count, setCount }}>
-      {props.children}
+      {children}
     </CounterContext.Provider>
   );
 };

@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Item from './components/Item.jsx'
-import Total from './components/Total.jsx'
+import Item from "./components/Item.jsx";
+import Total from "./components/Total.jsx";
 
 function App() {
   return (
-    <>
-     <Item name="Laptop" price={999} />
-     <Item name="Smartphone" price={699} />
-     <Item name="Headphones" price={199} />
+    <div style={{ padding: "20px" }}>
+      <h1>Shopping Cart</h1>
+
+      <Item name="Apple" price={50} />
+      <Item name="Banana" price={20} />
+      <Item name="Orange" price={30} />
+
       <Total />
-    </>
-  )
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  color: white;
+}
+/* .person{
+  background-color: rgb(30, 200, 67);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.person h2{
+  margin: 0;
+  color: red;
+  
+}  */
+
+
+.product{
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: rgb(171, 230, 184);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  display: inline-block;
+}
+.product img{
+  width: 100px;
+  border-radius: 1px;
+}
+.product h2{
+  margin: 0;
+  color: rgb(5, 5, 5);
+  
+}
+.product p{
+  margin: 0;
+  color: rgb(10, 10, 10);
+  
+}
+.addCart{
+  margin-top: 10px;
+  background-color: rgb(181, 122, 6);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buyNow{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}
