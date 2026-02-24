@@ -7,6 +7,8 @@ import Product from '../components/Product'
 import SongCard from '../components/Card'
 import Person3 from '../components/Person3'
 import Events from '../components/Events'
+import Counter from '../components/Counter'
+import ShowProducts from '../components/ShowProducts'
 
 
 function App() {
@@ -26,7 +28,9 @@ function App() {
     // <Events />
     // </>
     <>
-    <Events />
+    {/* <Events /> */}
+    {/* <Counter /> */}
+    <ShowProducts />
         </>
     
   )
