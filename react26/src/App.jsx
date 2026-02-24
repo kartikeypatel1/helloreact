@@ -9,6 +9,7 @@ import Person3 from '../components/Person3'
 import Events from '../components/Events'
 import Counter from '../components/Counter'
 import ShowProducts from '../components/ShowProducts'
+import FilterProducts from '../components/FilterProducts'
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
     <>
     {/* <Events /> */}
     {/* <Counter /> */}
-    <ShowProducts />
+    {/* <ShowProducts /> */}
+    <FilterProducts />
         </>
     
   )
