@@ -1,11 +1,10 @@
-import React from 'react'
-import { Movies } from './MovieZone/Movies'
-
+import React, { useEffect, useState } from 'react'
+import UseEffect from '../components/UseEffect'
 function App() {
+ 
 
   return (<>
-        <Movies />
-
+<UseEffect />
   </>
     
   )
